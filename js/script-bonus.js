@@ -12,6 +12,9 @@ var app = new Vue({
   },
   changeColor: function(){
     this.titleColor='yellow'
+  },
+  changeImg: function(){
+    this.immagine='./img/banana.png'
   }
 }
 });
