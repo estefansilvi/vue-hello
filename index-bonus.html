@@ -11,7 +11,8 @@
       <h1 :style="'color:'+titleColor">{{ messaggio }}</h1>
       <br>
       <img :src="immagine" alt="">
-      <button @click="cambio(); changeColor(); changeImg()" type="button" name="button">Clicca</button>
+      <button class="uno" @click="cambio(); changeColor(); changeImg()" type="button" name="button">avanti</button>
+      <button class="due" @click="comeBackImage(); comeBackColor(); comeBackMessaggio()" type="button" name="button">indietro</button>
     </div>
 
 

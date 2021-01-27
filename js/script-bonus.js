@@ -15,6 +15,15 @@ var app = new Vue({
   },
   changeImg: function(){
     this.immagine='./img/banana.png'
+  },
+  comeBackImage:function(){
+    this.immagine='./img/minion.png'
+  },
+  comeBackColor:function(){
+    this.titleColor=''
+  },
+  comeBackMessaggio:function(){
+    this.messaggio='Hellooooooooooooo'
   }
 }
 });
